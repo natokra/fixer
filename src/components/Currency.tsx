@@ -39,5 +39,6 @@ const SymbolButton = styled.button<SelectedProps>(({ selected }) => ({
   backgroundColor: "white",
   borderRadius: "4px",
   outline: "none",
-  width: "55px"
+  width: "55px",
+  cursor: "pointer"
 }));
